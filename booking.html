@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book Your Trip - Travel & Tourism</title>
+
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<header>
+
+    <div class="logo">
+        <img src="images/logo.png" alt="Travel Logo">
+        <h1>Travel & Tourism</h1>
+    </div>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="destinations.html">Destinations</a></li>
+            <li><a href="packages.html">Packages</a></li>
+            <li><a href="gallery.html">Gallery</a></li>
+            <li><a href="booking.html">Booking</a></li>
+            <li><a href="contact.html">Contact</a></li>
+            <li><a href="reviews.html">Reviews</a></li>
+            <li><a href="newsletter.html">Newsletter</a></li>
+        </ul>
+    </nav>
+
+</header>
+
+<section class="booking-banner">
+    <h2>Book Your Dream Trip</h2>
+    <p>Fill in the details below to reserve your tour.</p>
+</section>
+
+<section class="booking-section">
+
+<form id="bookingForm">
+
+<label>Full Name</label>
+<input type="text" id="name" placeholder="Enter your full name">
+
+<label>Email Address</label>
+<input type="email" id="email" placeholder="Enter your email">
+
+<label>Mobile Number</label>
+<input type="tel" id="phone" placeholder="Enter your mobile number">
+
+<label>Select Destination</label>
+<select id="destination">
+    <option value="">-- Select Destination --</option>
+    <option>Ooty</option>
+    <option>Kodaikanal</option>
+    <option>Goa</option>
+    <option>Munnar</option>
+    <option>Kerala</option>
+    <option>Mysore</option>
+    <option>Andaman</option>
+    <option>Coorg</option>
+    <option>Kashmir</option>
+    <option>Taj Mahal</option>
+</select>
+
+<label>Travel Date</label>
+<input type="date" id="date">
+
+<label>Number of Travelers</label>
+<input type="number" id="persons" min="1" max="20">
+
+<label>Gender</label>
+<div class="radio-group">
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+<input type="radio" name="gender"> Other
+</div>
+
+<label>Payment Method</label>
+<select id="payment">
+    <option>UPI</option>
+    <option>Credit Card</option>
+    <option>Debit Card</option>
+    <option>Net Banking</option>
+    <option>Cash</option>
+</select>
+
+<label>Special Request</label>
+<textarea rows="4" placeholder="Any special requests..."></textarea>
+
+<button type="submit">Book Now</button>
+
+</form>
+
+</section>
+
+<footer>
+
+<div class="footer-content">
+
+<h2>Travel & Tourism</h2>
+
+<p>Explore the World with Comfort and Happiness.</p>
+
+<p>📞 +91 9876543210</p>
+
+<p>✉ traveltourism@gmail.com</p>
+
+<p>© 2026 Travel & Tourism. All Rights Reserved.</p>
+
+</div>
+
+</footer>
+
+<script src="js/script.js"></script>
+
+</body>
+</html>
